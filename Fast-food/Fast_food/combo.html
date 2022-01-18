@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Praise&family=Roboto+Slab:wght@300;400;500;600&family=Roboto:ital,wght@1,100&family=Satisfy&display=swap" rel="stylesheet">   
-    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Praise&family=Roboto:ital,wght@1,100&family=Satisfy&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Praise&family=Roboto:ital,wght@1,100&family=Satisfy&display=swap" rel="stylesheet">
     
 </head>
 <body>
@@ -67,10 +67,10 @@
                             <a href="index.html" class="navbar-item__link">Trang chủ</a>   
                         </li>
                         <li class="navbar-item">
-                            <a href="#" class="navbar-item__link">Giới thiệu</a>   
+                            <a href="gioi-thieu.html" class="navbar-item__link">Giới thiệu</a>   
                         </li>
                         <li class="navbar-item">
-                            <a href="sản_phẩm.html" class="navbar-item__link">Sản phẩm</a>      
+                            <a href="sản_phẩm.html" class="navbar-item__link" style="color: #f2b94c;">Sản phẩm</a>      
                         </li>
                         <li class="navbar-item">
                             <a href="tin-tuc.html" class="navbar-item__link">Tin tức</a>                
@@ -110,8 +110,12 @@
                 
             </div>
         </header>
+        
+        <div class="theme-background">
+            <div class="theme-title">sản phẩm mới</div>
+        </div>
 
-        <div class="page">
+        <section class="body">
             <section class="page__heading">
                 <div class="grid">
                     <div class="grid__row">
@@ -122,7 +126,7 @@
                                     <span class="gach">/</span>
                                 </li>
                                 <li class="page__heading-home">
-                                    <span class="page__color-default">Giới thiệu</span>     
+                                    <span class="page__color-default">Sản phẩm mới</span>     
                                 </li>
                             </ul>
                         </div>
@@ -132,32 +136,189 @@
 
             <div class="grid">
                 <div class="grid__row">
-                    <div class="grid__colum-12">
-                        <div class="page__title">
-                            Giới thiệu
-                        </div>
-                        <div class="page__content">
-                            <p>
-                                Đắm mình trong không gian cổ kính của Hà Nội, bạn không những được tận hưởng cảm xúc thi vị của phố cổ, mà còn được thưởng thức hương vị Pháp ngay trong lòng Thủ Đô.
-                            </p>
-                            <p>
-                                Nằm trên con phố đông đúc và cổ kính, MocFood từ lâu đã trở thành điểm đến của những người yêu thích Bánh Ngọt Pháp. Với niềm đam mê về chất Pháp, MocFood đã mang hương vị pháp “nguyên chất” đến với những thực khách Việt Nam.
-                            </p>
-                            <p>
-                                MocFood là một thương hiệu nổi tiếng cho những ai yêu thích văn hóa ẩm thực Pháp. Nằm trên cái “chất” của Hà Nội, chất phố cổ, chất của người tìm về cội nguồn văn hóa, du khách sẽ bắt gặp MocFood tại Số 68 Hùng Vương - Phú Thọ. Vừa tìm hiểu về văn hóa phố cổ Hà Nội, du khách có thể thưởng thức hương vị Pháp tại đây, với một không gian rất cổ kính của Hà Thành.   
-                            </p>
-                            <p>
-                                Xa hơn, du khách có thể đi xích lô, tận hưởng sự trang nhã của Hà Nội, du khách có thể bắt gặp MocFood tại 38 Phùng Hưng,  khác với nét cổ của Hà Thành, nhắm tới đối tượng trẻ hơn nhằm giúp các bạn trẻ có thể tận hưởng và khám phá hương vị của Paris cổ kính. Với không gian được bố trí trang nhã với tông màu ấm cúng, rộng rãi và thoáng mát, MocFood tại 78 Láng Hạ cũng là một sự lựa chọn cho thực khách của Hà Nội...
-                            </p>
-                            
-                            <p>
-                                Tất cả những yếu tố đó đã tạo lên một thương hiệu MocFood.
-                            </p>
+                    <div class="grid__colum-3">
+                        <nav class="category">
+
+                            <div class="category__colection">
+                                
+                                <h2 class="colection__title">
+                                    <span class="colection__title-head">danh mục sản phẩm</span>
+                                </h2>
+                                
+                                <div class="category__content">
+                                    <ul class="category-list">
+                                        <li class="category-item category-item--active">
+                                            <a href="spmoi.html" class="category-item__link">Sản phẩm mới</a>
+                                        </li>
+                                        <li class="category-item">
+                                            <a href="spnoibat.html" class="category-item__link">Sản phẩm nối bật</a>
+                                        </li>
+                                        <li class="category-item">
+                                            <a href="sản_phẩm.html" class="category-item__link">Pizza</a>
+                                        </li>
+                                        <li class="category-item">
+                                            <a href="combo.html" class="category-item__link">Combo giảm giá</a>
+                                        </li>
+                                        
+                                        <li class="category-item">
+                                            <a href="doannhe.html" class="category-item__link">Đồ ăn nhẹ</a>
+                                        </li>
+        
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="category__selling">
+
+                                <h2 class="colection__title">
+                                    <span class="colection__title-head">sản phẩm bán chạy</span>
+                                </h2>
+
+                                <div class="selling__product">
+                                    <div class="selling__product-box">
+                                        <div class="selling__product-image">
+                                            <a href="./1Pepperonis.html" class="selling__product-link">
+                                                <img src="./assets/img/product/product1.jpg" alt="" class="selling__product-img">
+                                            </a>
+                                        </div>
+                                        <div class="selling__product-content">
+                                            <a href="./1Pepperonis.html"class="selling__product-title">Pepperonis Pizza</a>
+                                            <div class="selling__product-price-box">
+                                                <span class="selling__product-price">239.000đ</span>
+                                                <span class="selling__product-price-sale">399.000đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="selling__product-box">
+                                        <div class="selling__product-image">
+                                            <a href="./2Cheddar.html" class="selling__product-link">
+                                                <img src="./assets/img/product/product2.jpg" alt="" class="selling__product-img">
+                                            </a>
+                                        </div>
+                                        <div class="selling__product-content">
+                                            <a href="./2Cheddar.html"class="selling__product-title">Cheddar Pizza</a>
+                                            <div class="selling__product-price-box">
+                                                <span class="selling__product-price">349.000đ</span>
+                                                <span class="selling__product-price-sale">499.000đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="selling__product-box">
+                                        <div class="selling__product-image">
+                                            <a href="./3Mozzarella.html" class="selling__product-link">
+                                                <img src="./assets/img/product/product3.jpg" alt="" class="selling__product-img">
+                                            </a>
+                                        </div>
+                                        <div class="selling__product-content">
+                                            <a href="./3Mozzarella.html"class="selling__product-title">Mozzarella Pizza</a>
+                                            <div class="selling__product-price-box">
+                                                <span class="selling__product-price">220.000đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="selling__product-box">
+                                        <div class="selling__product-image">
+                                            <a href="./4Rustica.html" class="selling__product-link">
+                                                <img src="./assets/img/product/product4.jpg" alt="" class="selling__product-img">
+                                            </a>
+                                        </div>
+                                        <div class="selling__product-content">
+                                            <a href="./4Rustica.html"class="selling__product-title">Pizza Rustica</a>
+                                            <div class="selling__product-price-box">
+                                                <span class="selling__product-price">199.000đ</span>
+                                                <span class="selling__product-price-sale"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </nav>
+                    </div>
+
+                    <div class="grid__colum-9 ">
+                        <div class="grid__row">
+                            <div class="grid__colum-12">
+                                <div class="product" style="height: 50%;">
+                                    <div class="product__preview">
+                                        <a href="" class="product__preview-link">
+                                            <img src="./assets/img/combo/combo1.jpg" alt="" class="product__preview-img">
+                                        </a>
+                                        <div class="product__preview-buybox">
+                
+                                        </div>
+                                    </div>
+                                </div>  
+                                
+                                <div class="product" style="height: 50%;">
+                                    <div class="product__preview">
+                                        <a href="" class="product__preview-link">
+                                            <img src="./assets/img/combo/combo2.jpg" alt="" class="product__preview-img">
+                                        </a>
+                                        <div class="product__preview-buybox">
+                
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>    
+                               
+                            <div class="grid__colum-12">
+                                <div class="grid__row">
+                                    <div class="grid__colum-4">
+                                        <div class="product" style="margin-top: 20px;">
+                                            <div class="product__preview" >
+                                                <a href="./1Pepperonis.html" class="product__preview-link">
+                                                    <img src="./assets/img/combo/combo3.jpg" alt="" class="product__preview-img">
+                                                </a>
+                                                <div class="product__preview-buybox">
+                        
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                    </div>
+
+                                    <div class="grid__colum-4">
+                                        <div class="product" style="margin-top: 20px;">
+                                            <div class="product__preview" >
+                                                <a href="./1Pepperonis.html" class="product__preview-link">
+                                                    <img src="./assets/img/combo/combo4.jpg" alt="" class="product__preview-img">
+                                                </a>
+                                                <div class="product__preview-buybox">
+                        
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                    </div>
+
+                                    <div class="grid__colum-4">
+                                        <div class="product" style="margin-top: 20px;">
+                                            <div class="product__preview" >
+                                                <a href="./1Pepperonis.html" class="product__preview-link">
+                                                    <img src="./assets/img/combo/combo5.jpg" alt="" class="product__preview-img">
+                                                </a>
+                                                <div class="product__preview-buybox">
+                        
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                    </div>
+
+                                    
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <footer class="footer">
             <div class="top-footer">
@@ -362,7 +523,9 @@
                 <p>Copyright by <a href="https://www.facebook.com/profile.php?id=100008802123341">Đạt Đồng</a></p>
             </div>
         </footer>
-
     </div>
+
+    
+
 </body>
 </html>
